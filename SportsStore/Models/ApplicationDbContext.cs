@@ -20,5 +20,7 @@ namespace SportsStore.Models
             write the application’s data. There is only one property at the moment, which will provide access to Product
         objects.*/
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
     }
 }
